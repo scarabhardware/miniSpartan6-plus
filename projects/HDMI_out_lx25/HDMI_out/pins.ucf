@@ -1,0 +1,22 @@
+NET "CLK50"    LOC = "K3" | IOSTANDARD = LVCMOS33 | PERIOD = 50 MHz;
+
+# DVI-D interface
+NET "TMDS_out_P(0)"  LOC = "C13" | IOSTANDARD = TMDS_33 ; # Blue
+NET "TMDS_out_N(0)"  LOC = "A13" | IOSTANDARD = TMDS_33 ;
+NET "TMDS_out_P(1)"  LOC = "B12" | IOSTANDARD = TMDS_33 ; # Red
+NET "TMDS_out_N(1)"  LOC = "A12" | IOSTANDARD = TMDS_33 ;
+NET "TMDS_out_P(2)"  LOC = "C11" | IOSTANDARD = TMDS_33 ; # Green
+NET "TMDS_out_N(2)"  LOC = "A11" | IOSTANDARD = TMDS_33 ;
+NET "TMDS_out_P(3)"  LOC = "B14" | IOSTANDARD = TMDS_33 ; # Clock
+NET "TMDS_out_N(3)"  LOC = "A14" | IOSTANDARD = TMDS_33 ;
+
+NET leds(0)         	LOC="P11" | IOSTANDARD=LVTTL;
+NET leds(1)         	LOC="N9" | IOSTANDARD=LVTTL; 
+#NET leds(2)         	LOC="M9" | IOSTANDARD=LVTTL;
+#NET leds(3)         	LOC="P9" | IOSTANDARD=LVTTL; 
+
+
+NET btns(0)         	LOC="L1" | IOSTANDARD=LVTTL | PULLUP;
+NET btns(1)         	LOC="L3" | IOSTANDARD=LVTTL | PULLUP;
+NET btns(2)         	LOC="L4" | IOSTANDARD=LVTTL | PULLUP;
+NET btns(3)          LOC="L5" | IOSTANDARD=LVTTL | PULLUP;

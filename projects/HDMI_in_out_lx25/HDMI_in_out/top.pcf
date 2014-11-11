@@ -1,0 +1,25 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat Oct 11 09:50:55 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "LED<3>" LOCATE = SITE "P9" LEVEL 1;
+COMP "LED<4>" LOCATE = SITE "T8" LEVEL 1;
+COMP "LED<5>" LOCATE = SITE "N8" LEVEL 1;
+COMP "LED<6>" LOCATE = SITE "P8" LEVEL 1;
+COMP "LED<7>" LOCATE = SITE "P7" LEVEL 1;
+COMP "TMDSn<0>" LOCATE = SITE "A13" LEVEL 1;
+COMP "TMDSn<1>" LOCATE = SITE "A12" LEVEL 1;
+COMP "TMDSn<2>" LOCATE = SITE "A11" LEVEL 1;
+COMP "pixclk" LOCATE = SITE "K3" LEVEL 1;
+COMP "TMDSp<0>" LOCATE = SITE "C13" LEVEL 1;
+COMP "TMDSp<1>" LOCATE = SITE "B12" LEVEL 1;
+COMP "TMDSp<2>" LOCATE = SITE "C11" LEVEL 1;
+COMP "TMDSn_clock" LOCATE = SITE "A14" LEVEL 1;
+COMP "TMDSp_clock" LOCATE = SITE "B14" LEVEL 1;
+COMP "LED<0>" LOCATE = SITE "P11" LEVEL 1;
+COMP "LED<1>" LOCATE = SITE "N9" LEVEL 1;
+COMP "LED<2>" LOCATE = SITE "M9" LEVEL 1;
+NET "pixclk_IBUFG" PERIOD = 31.25 ns HIGH 50%;
+SCHEMATIC END;
+

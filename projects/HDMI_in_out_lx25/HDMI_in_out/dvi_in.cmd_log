@@ -1,0 +1,655 @@
+xst -intstyle ise -ifn "/home/hardwarer/Hello5_HDMI_IN/dvi_in.xst" -ofn "/home/hardwarer/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 dvi_in.ngc dvi_in.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 dvi_in.ngc dvi_in.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 dvi_in.ngc dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 dvi_in.ngc dvi_in.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 dvi_in.ngc dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 dvi_in.ngc dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 dvi_in.ngc dvi_in.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 dvi_in.ngc dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 dvi_in.ngc dvi_in.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 dvi_in.ngc dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 dvi_in.ngc dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/Hello5_HDMI_IN/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 
+xst -intstyle ise -ifn "/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.xst" -ofn "/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx25-ftg256-3 "dvi_in.ngc" dvi_in.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o dvi_in_map.ncd dvi_in.ngd dvi_in.pcf 
+par -w -intstyle ise -ol high -mt off dvi_in_map.ncd dvi_in.ncd dvi_in.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml dvi_in.twx dvi_in.ncd -o dvi_in.twr dvi_in.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f dvi_in.ut dvi_in.ncd 

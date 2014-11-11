@@ -1,0 +1,61 @@
+NET "CLK50"    LOC = "K3" | IOSTANDARD = LVCMOS33 | PERIOD = 50 MHz;
+
+# DVI-D interface
+NET "TMDS_out_P(0)"  LOC = "C13" | IOSTANDARD = TMDS_33 ; # Blue
+NET "TMDS_out_N(0)"  LOC = "A13" | IOSTANDARD = TMDS_33 ;
+NET "TMDS_out_P(1)"  LOC = "B12" | IOSTANDARD = TMDS_33 ; # Red
+NET "TMDS_out_N(1)"  LOC = "A12" | IOSTANDARD = TMDS_33 ;
+NET "TMDS_out_P(2)"  LOC = "C11" | IOSTANDARD = TMDS_33 ; # Green
+NET "TMDS_out_N(2)"  LOC = "A11" | IOSTANDARD = TMDS_33 ;
+NET "TMDS_out_P(3)"  LOC = "B14" | IOSTANDARD = TMDS_33 ; # Clock
+NET "TMDS_out_N(3)"  LOC = "A14" | IOSTANDARD = TMDS_33 ;
+
+CONFIG VCCAUX=3.3;
+
+NET clk32  LOC = "J4" | IOSTANDARD = LVTTL | PERIOD = 31.25ns;
+
+NET hdmi_clk_p	 		LOC="C9" | IOSTANDARD=TMDS_33;
+NET hdmi_clk_n	 		LOC="A9" | IOSTANDARD=TMDS_33;
+NET hdmi_c0_p     	LOC="B5" | IOSTANDARD=TMDS_33;
+NET hdmi_c0_n     	LOC="A5" | IOSTANDARD=TMDS_33;
+NET hdmi_c1_p     	LOC="A7" | IOSTANDARD=TMDS_33;	#Fix it inthe design
+NET hdmi_c1_n     	LOC="C7" | IOSTANDARD=TMDS_33;	#Fix it inthe design
+NET hdmi_c2_p     	LOC="A6" | IOSTANDARD=TMDS_33;	#Fix it inthe design
+NET hdmi_c2_n     	LOC="B6" | IOSTANDARD=TMDS_33;	 #Fix it inthe design
+ 
+NET hdmi_sclk         	LOC="C1" | IOSTANDARD=LVTTL ;
+NET hdmi_sdat         	LOC="B1" | IOSTANDARD=LVTTL ;
+
+NET red(0)         	LOC="D6" | IOSTANDARD=LVTTL;
+NET red(1)         	LOC="E6" | IOSTANDARD=LVTTL;
+NET red(2)         	LOC="C6" | IOSTANDARD=LVTTL;
+
+NET green(0)         	LOC="A4" | IOSTANDARD=LVTTL;
+NET green(1)         	LOC="G5" | IOSTANDARD=LVTTL;
+NET green(2)         	LOC="A3" | IOSTANDARD=LVTTL;
+
+NET blue(0)         	LOC="D5" | IOSTANDARD=LVTTL;
+NET blue(1)         	LOC="C5" | IOSTANDARD=LVTTL;
+
+ 
+
+NET btns(0)         	LOC="L1" | IOSTANDARD=LVTTL |PULLUP;
+NET btns(1)         	LOC="L3" | IOSTANDARD=LVTTL |PULLUP;
+NET btns(2)         	LOC="L4" | IOSTANDARD=LVTTL |PULLUP;
+NET btns(3)         LOC="L5" | IOSTANDARD=LVTTL |PULLUP;
+            
+#NET leds(0)         LOC="P11" | IOSTANDARD=LVTTL | DRIVE=8 | SLEW=SLOW;
+#NET leds(1)         LOC="N9" | IOSTANDARD=LVTTL | DRIVE=8 | SLEW=SLOW;
+#NET leds(2)         LOC="M9" | IOSTANDARD=LVTTL | DRIVE=8 | SLEW=SLOW;
+#NET leds(3)         LOC="P9" | IOSTANDARD=LVTTL | DRIVE=8 | SLEW=SLOW;
+#NET leds(4)         LOC="T8" | IOSTANDARD=LVTTL | DRIVE=8 | SLEW=SLOW;
+#NET leds(5)         LOC="N8" | IOSTANDARD=LVTTL | DRIVE=8 | SLEW=SLOW;
+#NET leds(6)         LOC="P8" | IOSTANDARD=LVTTL | DRIVE=8 | SLEW=SLOW;
+#NET leds(7)         LOC="P7" | IOSTANDARD=LVTTL | DRIVE=8 | SLEW=SLOW;
+
+NET hsync0         	LOC="J1" | IOSTANDARD=LVTTL;
+NET vsync0         	LOC="G1" | IOSTANDARD=LVTTL; 
+NET hsync1         	LOC="G3" | IOSTANDARD=LVTTL;
+NET vsync1         	LOC="H1" | IOSTANDARD=LVTTL; 
+NET hsync2         	LOC="H2" | IOSTANDARD=LVTTL;
+NET vsync2         	LOC="H3" | IOSTANDARD=LVTTL; 

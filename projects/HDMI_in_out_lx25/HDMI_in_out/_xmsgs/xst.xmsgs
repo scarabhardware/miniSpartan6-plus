@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.vhd" Line 317: Actual for formal port <arg fmt="%s" index="1">c1</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.vhd" Line 492: Actual for formal port <arg fmt="%s" index="1">red_p</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.vhd" Line 493: Actual for formal port <arg fmt="%s" index="1">green_p</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.vhd" Line 494: Actual for formal port <arg fmt="%s" index="1">blue_p</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.vhd" Line 495: Actual for formal port <arg fmt="%s" index="1">blank</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.vhd" Line 201: <arg fmt="%s" index="1">btns</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/media/ufarooq/My Passport/VHDL/HDMI_in_out/input_serialiser.vhd" Line 26: Using initial value <arg fmt="%s" index="1">&apos;0&apos;</arg> for <arg fmt="%s" index="2">bitslip</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">btns&lt;3:1&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">clk32</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">clk50</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.vhd</arg>&quot; line <arg fmt="%s" index="2">329</arg>: Output port &lt;<arg fmt="%s" index="3">control</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">input_channel_c0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.vhd</arg>&quot; line <arg fmt="%s" index="2">329</arg>: Output port &lt;<arg fmt="%s" index="3">sync_seen</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">input_channel_c0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.vhd</arg>&quot; line <arg fmt="%s" index="2">329</arg>: Output port &lt;<arg fmt="%s" index="3">calibrate_busy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">input_channel_c0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.vhd</arg>&quot; line <arg fmt="%s" index="2">355</arg>: Output port &lt;<arg fmt="%s" index="3">active_data</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">input_channel_c1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.vhd</arg>&quot; line <arg fmt="%s" index="2">355</arg>: Output port &lt;<arg fmt="%s" index="3">sync_seen</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">input_channel_c1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.vhd</arg>&quot; line <arg fmt="%s" index="2">355</arg>: Output port &lt;<arg fmt="%s" index="3">calibrate_busy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">input_channel_c1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.vhd</arg>&quot; line <arg fmt="%s" index="2">380</arg>: Output port &lt;<arg fmt="%s" index="3">control</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">input_channel_c2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.vhd</arg>&quot; line <arg fmt="%s" index="2">380</arg>: Output port &lt;<arg fmt="%s" index="3">active_data</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">input_channel_c2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.vhd</arg>&quot; line <arg fmt="%s" index="2">380</arg>: Output port &lt;<arg fmt="%s" index="3">calibrate_busy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">input_channel_c2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.vhd</arg>&quot; line <arg fmt="%s" index="2">474</arg>: Output port &lt;<arg fmt="%s" index="3">red</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i_vga_gen</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.vhd</arg>&quot; line <arg fmt="%s" index="2">474</arg>: Output port &lt;<arg fmt="%s" index="3">green</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i_vga_gen</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.vhd</arg>&quot; line <arg fmt="%s" index="2">474</arg>: Output port &lt;<arg fmt="%s" index="3">blue</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i_vga_gen</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.vhd</arg>&quot; line <arg fmt="%s" index="2">474</arg>: Output port &lt;<arg fmt="%s" index="3">pclk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i_vga_gen</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">reset_delay</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">start_calibrate</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">adjust_delay</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">increase_delay</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">reset_delay</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">start_calibrate</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">calibrate_busy</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvid_out.vhd</arg>&quot; line <arg fmt="%s" index="2">90</arg>: Output port &lt;<arg fmt="%s" index="3">full</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">out_fifo</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvid_out.vhd</arg>&quot; line <arg fmt="%s" index="2">90</arg>: Output port &lt;<arg fmt="%s" index="3">empty</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">out_fifo</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">PLL_BASE_inst</arg> in unit <arg fmt="%s" index="2">PLL_BASE_inst</arg> of type <arg fmt="%s" index="3">PLL_BASE</arg> has been replaced by <arg fmt="%s" index="4">PLL_ADV</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">Inst_clocking/PLL_BASE_inst</arg> in unit <arg fmt="%s" index="2">Inst_clocking/PLL_BASE_inst</arg> of type <arg fmt="%s" index="3">PLL_BASE</arg> has been replaced by <arg fmt="%s" index="4">PLL_ADV</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">input_channel_c1/sync_seen</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">input_channel_c0/sync_seen</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">input_channel_c0/i_tmds_decode/c_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">input_channel_c0/i_tmds_decode/c_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">input_channel_c0/i_tmds_decode/next_c_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">input_channel_c0/i_tmds_decode/next_c_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">input_channel_c1/i_tmds_decode/active_data</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">input_channel_c2/i_tmds_decode/c_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">input_channel_c2/i_tmds_decode/c_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">input_channel_c2/i_tmds_decode/active_data</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">input_channel_c2/i_tmds_decode/next_c_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">input_channel_c2/i_tmds_decode/next_c_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i_vga_gen/blue_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i_vga_gen/blue_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i_vga_gen/blue_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i_vga_gen/blue_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i_vga_gen/blue_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i_vga_gen/blue_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i_vga_gen/blue_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i_vga_gen/blue_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i_vga_gen/red_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i_vga_gen/red_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i_vga_gen/red_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i_vga_gen/red_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i_vga_gen/red_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i_vga_gen/red_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i_vga_gen/red_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i_vga_gen/red_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i_vga_gen/green_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i_vga_gen/green_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i_vga_gen/green_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i_vga_gen/green_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i_vga_gen/green_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i_vga_gen/green_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i_vga_gen/green_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i_vga_gen/green_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">i_dvid_out/ser_in_clock_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;i_dvid_out/ser_in_clock_3&gt; &lt;i_dvid_out/ser_in_clock_2&gt; &lt;i_dvid_out/ser_in_clock_1&gt; &lt;i_dvid_out/ser_in_clock_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">input_channel_c0/i_gearbox/every_other</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">dvi_in</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;input_channel_c1/i_gearbox/every_other&gt; &lt;input_channel_c2/i_gearbox/every_other&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">i_dvid_out/out_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_0_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">i_dvid_out/out_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">i_dvid_out/out_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">i_dvid_out/out_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_0_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">i_dvid_out/out_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">i_dvid_out/out_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i&gt; </arg>
+</msg>
+
+</messages>
+

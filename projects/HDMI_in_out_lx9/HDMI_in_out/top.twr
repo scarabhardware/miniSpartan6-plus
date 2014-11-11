@@ -1,0 +1,788 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf pins.ucf
+
+Design file:              top.ncd
+Physical constraint file: top.pcf
+Device,package,speed:     xc6slx9,ftg256,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: NET "pixclk_IBUFG" PERIOD = 31.25 ns HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 985 paths analyzed, 301 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is  16.000ns.
+--------------------------------------------------------------------------------
+
+Paths for end point CounterX_1 (SLICE_X12Y40.SR), 10 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     28.310ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               CounterX_3 (FF)
+  Destination:          CounterX_1 (FF)
+  Requirement:          31.250ns
+  Data Path Delay:      2.905ns (Levels of Logic = 2)
+  Clock Path Skew:      0.000ns
+  Source Clock:         pixclk_IBUFG_BUFG rising at 0.000ns
+  Destination Clock:    pixclk_IBUFG_BUFG rising at 31.250ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: CounterX_3 to CounterX_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X12Y40.DQ      Tcko                  0.447   CounterX<3>
+                                                       CounterX_3
+    SLICE_X15Y40.A2      net (fanout=3)        0.629   CounterX<3>
+    SLICE_X15Y40.A       Tilo                  0.259   CounterX[9]_GND_1_o_OR_41_o_inv1
+                                                       CounterX[9]_GND_1_o_OR_41_o_inv11
+    SLICE_X14Y41.A6      net (fanout=3)        0.290   CounterX[9]_GND_1_o_OR_41_o_inv1
+    SLICE_X14Y41.A       Tilo                  0.205   N2
+                                                       GND_1_o_GND_1_o_equal_9_o<9>
+    SLICE_X12Y40.SR      net (fanout=6)        0.633   GND_1_o_GND_1_o_equal_9_o
+    SLICE_X12Y40.CLK     Tsrck                 0.442   CounterX<3>
+                                                       CounterX_1
+    -------------------------------------------------  ---------------------------
+    Total                                      2.905ns (1.353ns logic, 1.552ns route)
+                                                       (46.6% logic, 53.4% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     28.468ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               CounterX_1 (FF)
+  Destination:          CounterX_1 (FF)
+  Requirement:          31.250ns
+  Data Path Delay:      2.747ns (Levels of Logic = 2)
+  Clock Path Skew:      0.000ns
+  Source Clock:         pixclk_IBUFG_BUFG rising at 0.000ns
+  Destination Clock:    pixclk_IBUFG_BUFG rising at 31.250ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: CounterX_1 to CounterX_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X12Y40.BQ      Tcko                  0.447   CounterX<3>
+                                                       CounterX_1
+    SLICE_X15Y40.A4      net (fanout=3)        0.471   CounterX<1>
+    SLICE_X15Y40.A       Tilo                  0.259   CounterX[9]_GND_1_o_OR_41_o_inv1
+                                                       CounterX[9]_GND_1_o_OR_41_o_inv11
+    SLICE_X14Y41.A6      net (fanout=3)        0.290   CounterX[9]_GND_1_o_OR_41_o_inv1
+    SLICE_X14Y41.A       Tilo                  0.205   N2
+                                                       GND_1_o_GND_1_o_equal_9_o<9>
+    SLICE_X12Y40.SR      net (fanout=6)        0.633   GND_1_o_GND_1_o_equal_9_o
+    SLICE_X12Y40.CLK     Tsrck                 0.442   CounterX<3>
+                                                       CounterX_1
+    -------------------------------------------------  ---------------------------
+    Total                                      2.747ns (1.353ns logic, 1.394ns route)
+                                                       (49.3% logic, 50.7% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     28.560ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               CounterX_0 (FF)
+  Destination:          CounterX_1 (FF)
+  Requirement:          31.250ns
+  Data Path Delay:      2.655ns (Levels of Logic = 2)
+  Clock Path Skew:      0.000ns
+  Source Clock:         pixclk_IBUFG_BUFG rising at 0.000ns
+  Destination Clock:    pixclk_IBUFG_BUFG rising at 31.250ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: CounterX_0 to CounterX_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X12Y40.AQ      Tcko                  0.447   CounterX<3>
+                                                       CounterX_0
+    SLICE_X15Y40.A5      net (fanout=2)        0.379   CounterX<0>
+    SLICE_X15Y40.A       Tilo                  0.259   CounterX[9]_GND_1_o_OR_41_o_inv1
+                                                       CounterX[9]_GND_1_o_OR_41_o_inv11
+    SLICE_X14Y41.A6      net (fanout=3)        0.290   CounterX[9]_GND_1_o_OR_41_o_inv1
+    SLICE_X14Y41.A       Tilo                  0.205   N2
+                                                       GND_1_o_GND_1_o_equal_9_o<9>
+    SLICE_X12Y40.SR      net (fanout=6)        0.633   GND_1_o_GND_1_o_equal_9_o
+    SLICE_X12Y40.CLK     Tsrck                 0.442   CounterX<3>
+                                                       CounterX_1
+    -------------------------------------------------  ---------------------------
+    Total                                      2.655ns (1.353ns logic, 1.302ns route)
+                                                       (51.0% logic, 49.0% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point CounterX_3 (SLICE_X12Y40.SR), 10 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     28.313ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               CounterX_3 (FF)
+  Destination:          CounterX_3 (FF)
+  Requirement:          31.250ns
+  Data Path Delay:      2.902ns (Levels of Logic = 2)
+  Clock Path Skew:      0.000ns
+  Source Clock:         pixclk_IBUFG_BUFG rising at 0.000ns
+  Destination Clock:    pixclk_IBUFG_BUFG rising at 31.250ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: CounterX_3 to CounterX_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X12Y40.DQ      Tcko                  0.447   CounterX<3>
+                                                       CounterX_3
+    SLICE_X15Y40.A2      net (fanout=3)        0.629   CounterX<3>
+    SLICE_X15Y40.A       Tilo                  0.259   CounterX[9]_GND_1_o_OR_41_o_inv1
+                                                       CounterX[9]_GND_1_o_OR_41_o_inv11
+    SLICE_X14Y41.A6      net (fanout=3)        0.290   CounterX[9]_GND_1_o_OR_41_o_inv1
+    SLICE_X14Y41.A       Tilo                  0.205   N2
+                                                       GND_1_o_GND_1_o_equal_9_o<9>
+    SLICE_X12Y40.SR      net (fanout=6)        0.633   GND_1_o_GND_1_o_equal_9_o
+    SLICE_X12Y40.CLK     Tsrck                 0.439   CounterX<3>
+                                                       CounterX_3
+    -------------------------------------------------  ---------------------------
+    Total                                      2.902ns (1.350ns logic, 1.552ns route)
+                                                       (46.5% logic, 53.5% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     28.471ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               CounterX_1 (FF)
+  Destination:          CounterX_3 (FF)
+  Requirement:          31.250ns
+  Data Path Delay:      2.744ns (Levels of Logic = 2)
+  Clock Path Skew:      0.000ns
+  Source Clock:         pixclk_IBUFG_BUFG rising at 0.000ns
+  Destination Clock:    pixclk_IBUFG_BUFG rising at 31.250ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: CounterX_1 to CounterX_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X12Y40.BQ      Tcko                  0.447   CounterX<3>
+                                                       CounterX_1
+    SLICE_X15Y40.A4      net (fanout=3)        0.471   CounterX<1>
+    SLICE_X15Y40.A       Tilo                  0.259   CounterX[9]_GND_1_o_OR_41_o_inv1
+                                                       CounterX[9]_GND_1_o_OR_41_o_inv11
+    SLICE_X14Y41.A6      net (fanout=3)        0.290   CounterX[9]_GND_1_o_OR_41_o_inv1
+    SLICE_X14Y41.A       Tilo                  0.205   N2
+                                                       GND_1_o_GND_1_o_equal_9_o<9>
+    SLICE_X12Y40.SR      net (fanout=6)        0.633   GND_1_o_GND_1_o_equal_9_o
+    SLICE_X12Y40.CLK     Tsrck                 0.439   CounterX<3>
+                                                       CounterX_3
+    -------------------------------------------------  ---------------------------
+    Total                                      2.744ns (1.350ns logic, 1.394ns route)
+                                                       (49.2% logic, 50.8% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     28.563ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               CounterX_0 (FF)
+  Destination:          CounterX_3 (FF)
+  Requirement:          31.250ns
+  Data Path Delay:      2.652ns (Levels of Logic = 2)
+  Clock Path Skew:      0.000ns
+  Source Clock:         pixclk_IBUFG_BUFG rising at 0.000ns
+  Destination Clock:    pixclk_IBUFG_BUFG rising at 31.250ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: CounterX_0 to CounterX_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X12Y40.AQ      Tcko                  0.447   CounterX<3>
+                                                       CounterX_0
+    SLICE_X15Y40.A5      net (fanout=2)        0.379   CounterX<0>
+    SLICE_X15Y40.A       Tilo                  0.259   CounterX[9]_GND_1_o_OR_41_o_inv1
+                                                       CounterX[9]_GND_1_o_OR_41_o_inv11
+    SLICE_X14Y41.A6      net (fanout=3)        0.290   CounterX[9]_GND_1_o_OR_41_o_inv1
+    SLICE_X14Y41.A       Tilo                  0.205   N2
+                                                       GND_1_o_GND_1_o_equal_9_o<9>
+    SLICE_X12Y40.SR      net (fanout=6)        0.633   GND_1_o_GND_1_o_equal_9_o
+    SLICE_X12Y40.CLK     Tsrck                 0.439   CounterX<3>
+                                                       CounterX_3
+    -------------------------------------------------  ---------------------------
+    Total                                      2.652ns (1.350ns logic, 1.302ns route)
+                                                       (50.9% logic, 49.1% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point CounterX_2 (SLICE_X12Y40.SR), 10 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     28.321ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               CounterX_3 (FF)
+  Destination:          CounterX_2 (FF)
+  Requirement:          31.250ns
+  Data Path Delay:      2.894ns (Levels of Logic = 2)
+  Clock Path Skew:      0.000ns
+  Source Clock:         pixclk_IBUFG_BUFG rising at 0.000ns
+  Destination Clock:    pixclk_IBUFG_BUFG rising at 31.250ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: CounterX_3 to CounterX_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X12Y40.DQ      Tcko                  0.447   CounterX<3>
+                                                       CounterX_3
+    SLICE_X15Y40.A2      net (fanout=3)        0.629   CounterX<3>
+    SLICE_X15Y40.A       Tilo                  0.259   CounterX[9]_GND_1_o_OR_41_o_inv1
+                                                       CounterX[9]_GND_1_o_OR_41_o_inv11
+    SLICE_X14Y41.A6      net (fanout=3)        0.290   CounterX[9]_GND_1_o_OR_41_o_inv1
+    SLICE_X14Y41.A       Tilo                  0.205   N2
+                                                       GND_1_o_GND_1_o_equal_9_o<9>
+    SLICE_X12Y40.SR      net (fanout=6)        0.633   GND_1_o_GND_1_o_equal_9_o
+    SLICE_X12Y40.CLK     Tsrck                 0.431   CounterX<3>
+                                                       CounterX_2
+    -------------------------------------------------  ---------------------------
+    Total                                      2.894ns (1.342ns logic, 1.552ns route)
+                                                       (46.4% logic, 53.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     28.479ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               CounterX_1 (FF)
+  Destination:          CounterX_2 (FF)
+  Requirement:          31.250ns
+  Data Path Delay:      2.736ns (Levels of Logic = 2)
+  Clock Path Skew:      0.000ns
+  Source Clock:         pixclk_IBUFG_BUFG rising at 0.000ns
+  Destination Clock:    pixclk_IBUFG_BUFG rising at 31.250ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: CounterX_1 to CounterX_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X12Y40.BQ      Tcko                  0.447   CounterX<3>
+                                                       CounterX_1
+    SLICE_X15Y40.A4      net (fanout=3)        0.471   CounterX<1>
+    SLICE_X15Y40.A       Tilo                  0.259   CounterX[9]_GND_1_o_OR_41_o_inv1
+                                                       CounterX[9]_GND_1_o_OR_41_o_inv11
+    SLICE_X14Y41.A6      net (fanout=3)        0.290   CounterX[9]_GND_1_o_OR_41_o_inv1
+    SLICE_X14Y41.A       Tilo                  0.205   N2
+                                                       GND_1_o_GND_1_o_equal_9_o<9>
+    SLICE_X12Y40.SR      net (fanout=6)        0.633   GND_1_o_GND_1_o_equal_9_o
+    SLICE_X12Y40.CLK     Tsrck                 0.431   CounterX<3>
+                                                       CounterX_2
+    -------------------------------------------------  ---------------------------
+    Total                                      2.736ns (1.342ns logic, 1.394ns route)
+                                                       (49.0% logic, 51.0% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     28.571ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               CounterX_0 (FF)
+  Destination:          CounterX_2 (FF)
+  Requirement:          31.250ns
+  Data Path Delay:      2.644ns (Levels of Logic = 2)
+  Clock Path Skew:      0.000ns
+  Source Clock:         pixclk_IBUFG_BUFG rising at 0.000ns
+  Destination Clock:    pixclk_IBUFG_BUFG rising at 31.250ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: CounterX_0 to CounterX_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X12Y40.AQ      Tcko                  0.447   CounterX<3>
+                                                       CounterX_0
+    SLICE_X15Y40.A5      net (fanout=2)        0.379   CounterX<0>
+    SLICE_X15Y40.A       Tilo                  0.259   CounterX[9]_GND_1_o_OR_41_o_inv1
+                                                       CounterX[9]_GND_1_o_OR_41_o_inv11
+    SLICE_X14Y41.A6      net (fanout=3)        0.290   CounterX[9]_GND_1_o_OR_41_o_inv1
+    SLICE_X14Y41.A       Tilo                  0.205   N2
+                                                       GND_1_o_GND_1_o_equal_9_o<9>
+    SLICE_X12Y40.SR      net (fanout=6)        0.633   GND_1_o_GND_1_o_equal_9_o
+    SLICE_X12Y40.CLK     Tsrck                 0.431   CounterX<3>
+                                                       CounterX_2
+    -------------------------------------------------  ---------------------------
+    Total                                      2.644ns (1.342ns logic, 1.302ns route)
+                                                       (50.8% logic, 49.2% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: NET "pixclk_IBUFG" PERIOD = 31.25 ns HIGH 50%;
+--------------------------------------------------------------------------------
+
+Paths for end point HDMI1_Encoder/encode_R/balance_acc_2 (SLICE_X14Y42.B5), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.412ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               HDMI1_Encoder/encode_R/balance_acc_3 (FF)
+  Destination:          HDMI1_Encoder/encode_R/balance_acc_2 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.412ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         pixclk_IBUFG_BUFG rising at 31.250ns
+  Destination Clock:    pixclk_IBUFG_BUFG rising at 31.250ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: HDMI1_Encoder/encode_R/balance_acc_3 to HDMI1_Encoder/encode_R/balance_acc_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X14Y42.BQ      Tcko                  0.200   HDMI1_Encoder/encode_R/balance_acc<3>
+                                                       HDMI1_Encoder/encode_R/balance_acc_3
+    SLICE_X14Y42.B5      net (fanout=4)        0.091   HDMI1_Encoder/encode_R/balance_acc<3>
+    SLICE_X14Y42.CLK     Tah         (-Th)    -0.121   HDMI1_Encoder/encode_R/balance_acc<3>
+                                                       HDMI1_Encoder/encode_R/Maccum_balance_acc_xor<2>11
+                                                       HDMI1_Encoder/encode_R/balance_acc_2
+    -------------------------------------------------  ---------------------------
+    Total                                      0.412ns (0.321ns logic, 0.091ns route)
+                                                       (77.9% logic, 22.1% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point CounterY_9 (SLICE_X14Y38.D6), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.422ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               CounterY_9 (FF)
+  Destination:          CounterY_9 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.422ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         pixclk_IBUFG_BUFG rising at 31.250ns
+  Destination Clock:    pixclk_IBUFG_BUFG rising at 31.250ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: CounterY_9 to CounterY_9
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X14Y38.DQ      Tcko                  0.200   CounterY<9>
+                                                       CounterY_9
+    SLICE_X14Y38.D6      net (fanout=4)        0.032   CounterY<9>
+    SLICE_X14Y38.CLK     Tah         (-Th)    -0.190   CounterY<9>
+                                                       Mmux_n004610
+                                                       CounterY_9
+    -------------------------------------------------  ---------------------------
+    Total                                      0.422ns (0.390ns logic, 0.032ns route)
+                                                       (92.4% logic, 7.6% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point CounterY_8 (SLICE_X14Y39.D6), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.427ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               CounterY_8 (FF)
+  Destination:          CounterY_8 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.427ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         pixclk_IBUFG_BUFG rising at 31.250ns
+  Destination Clock:    pixclk_IBUFG_BUFG rising at 31.250ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: CounterY_8 to CounterY_8
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X14Y39.DQ      Tcko                  0.200   CounterY<8>
+                                                       CounterY_8
+    SLICE_X14Y39.D6      net (fanout=4)        0.037   CounterY<8>
+    SLICE_X14Y39.CLK     Tah         (-Th)    -0.190   CounterY<8>
+                                                       Mmux_n004691
+                                                       CounterY_8
+    -------------------------------------------------  ---------------------------
+    Total                                      0.427ns (0.390ns logic, 0.037ns route)
+                                                       (91.3% logic, 8.7% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: NET "pixclk_IBUFG" PERIOD = 31.25 ns HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 15.250ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 31.250ns
+  Low pulse: 15.625ns
+  Low pulse limit: 8.000ns (Tdcmpw_CLKIN_25_50)
+  Physical resource: HDMI1_Encoder/DCM_TMDS_inst/CLKIN
+  Logical resource: HDMI1_Encoder/DCM_TMDS_inst/CLKIN
+  Location pin: DCM_X0Y2.CLKIN
+  Clock network: HDMI1_Encoder/DCM_TMDS_inst_ML_NEW_DIVCLK
+--------------------------------------------------------------------------------
+Slack: 15.250ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 31.250ns
+  High pulse: 15.625ns
+  High pulse limit: 8.000ns (Tdcmpw_CLKIN_25_50)
+  Physical resource: HDMI1_Encoder/DCM_TMDS_inst/CLKIN
+  Logical resource: HDMI1_Encoder/DCM_TMDS_inst/CLKIN
+  Location pin: DCM_X0Y2.CLKIN
+  Clock network: HDMI1_Encoder/DCM_TMDS_inst_ML_NEW_DIVCLK
+--------------------------------------------------------------------------------
+Slack: 28.580ns (period - min period limit)
+  Period: 31.250ns
+  Min period limit: 2.670ns (374.532MHz) (Tdcmper_CLKIN)
+  Physical resource: HDMI1_Encoder/DCM_TMDS_inst/CLKIN
+  Logical resource: HDMI1_Encoder/DCM_TMDS_inst/CLKIN
+  Location pin: DCM_X0Y2.CLKIN
+  Clock network: HDMI1_Encoder/DCM_TMDS_inst_ML_NEW_DIVCLK
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net "HDMI1_Encoder/DCM_TMDS_CLKFX" 
+derived from  NET "pixclk_IBUFG" PERIOD = 31.25 ns HIGH 50%;  divided by 10.00 
+to 3.125 nS and duty cycle corrected to HIGH 1.562 nS  
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 107 paths analyzed, 104 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   3.116ns.
+--------------------------------------------------------------------------------
+
+Paths for end point HDMI1_Encoder/TMDS_shift_blue_6 (SLICE_X14Y44.C4), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     0.009ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               HDMI1_Encoder/encode_B/TMDS_6 (FF)
+  Destination:          HDMI1_Encoder/TMDS_shift_blue_6 (FF)
+  Requirement:          3.125ns
+  Data Path Delay:      3.344ns (Levels of Logic = 1)
+  Clock Path Skew:      0.523ns (2.491 - 1.968)
+  Source Clock:         pixclk_IBUFG_BUFG rising at 0.000ns
+  Destination Clock:    HDMI1_Encoder/clk_TMDS rising at 3.125ns
+  Clock Uncertainty:    0.295ns
+
+  Clock Uncertainty:          0.295ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.220ns
+    Phase Error (PE):           0.150ns
+
+  Maximum Data Path at Slow Process Corner: HDMI1_Encoder/encode_B/TMDS_6 to HDMI1_Encoder/TMDS_shift_blue_6
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X14Y43.AQ      Tcko                  0.408   HDMI1_Encoder/encode_G/TMDS<8>
+                                                       HDMI1_Encoder/encode_B/TMDS_6
+    SLICE_X14Y44.C4      net (fanout=3)        2.595   HDMI1_Encoder/encode_B/TMDS<6>
+    SLICE_X14Y44.CLK     Tas                   0.341   HDMI1_Encoder/TMDS_shift_blue<7>
+                                                       HDMI1_Encoder/Mmux_GND_2_o_TMDS_blue[9]_mux_5_OUT71
+                                                       HDMI1_Encoder/TMDS_shift_blue_6
+    -------------------------------------------------  ---------------------------
+    Total                                      3.344ns (0.749ns logic, 2.595ns route)
+                                                       (22.4% logic, 77.6% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point HDMI1_Encoder/TMDS_shift_red_4 (SLICE_X16Y47.A3), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     0.010ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               HDMI1_Encoder/encode_R/TMDS_6 (FF)
+  Destination:          HDMI1_Encoder/TMDS_shift_red_4 (FF)
+  Requirement:          3.125ns
+  Data Path Delay:      3.340ns (Levels of Logic = 1)
+  Clock Path Skew:      0.520ns (2.494 - 1.974)
+  Source Clock:         pixclk_IBUFG_BUFG rising at 0.000ns
+  Destination Clock:    HDMI1_Encoder/clk_TMDS rising at 3.125ns
+  Clock Uncertainty:    0.295ns
+
+  Clock Uncertainty:          0.295ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.220ns
+    Phase Error (PE):           0.150ns
+
+  Maximum Data Path at Slow Process Corner: HDMI1_Encoder/encode_R/TMDS_6 to HDMI1_Encoder/TMDS_shift_red_4
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X13Y47.AQ      Tcko                  0.391   HDMI1_Encoder/encode_R/TMDS<6>
+                                                       HDMI1_Encoder/encode_R/TMDS_6
+    SLICE_X16Y47.A3      net (fanout=3)        2.660   HDMI1_Encoder/encode_R/TMDS<6>
+    SLICE_X16Y47.CLK     Tas                   0.289   HDMI1_Encoder/TMDS_shift_red<7>
+                                                       HDMI1_Encoder/Mmux_GND_2_o_TMDS_red[9]_mux_3_OUT51
+                                                       HDMI1_Encoder/TMDS_shift_red_4
+    -------------------------------------------------  ---------------------------
+    Total                                      3.340ns (0.680ns logic, 2.660ns route)
+                                                       (20.4% logic, 79.6% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point HDMI1_Encoder/TMDS_shift_green_1 (SLICE_X14Y49.B6), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     0.014ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               HDMI1_Encoder/encode_G/TMDS_7 (FF)
+  Destination:          HDMI1_Encoder/TMDS_shift_green_1 (FF)
+  Requirement:          3.125ns
+  Data Path Delay:      3.398ns (Levels of Logic = 1)
+  Clock Path Skew:      0.582ns (2.555 - 1.973)
+  Source Clock:         pixclk_IBUFG_BUFG rising at 0.000ns
+  Destination Clock:    HDMI1_Encoder/clk_TMDS rising at 3.125ns
+  Clock Uncertainty:    0.295ns
+
+  Clock Uncertainty:          0.295ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.220ns
+    Phase Error (PE):           0.150ns
+
+  Maximum Data Path at Slow Process Corner: HDMI1_Encoder/encode_G/TMDS_7 to HDMI1_Encoder/TMDS_shift_green_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X12Y46.AQ      Tcko                  0.447   HDMI1_Encoder/encode_G/TMDS<7>
+                                                       HDMI1_Encoder/encode_G/TMDS_7
+    SLICE_X14Y49.B6      net (fanout=5)        2.610   HDMI1_Encoder/encode_G/TMDS<7>
+    SLICE_X14Y49.CLK     Tas                   0.341   HDMI1_Encoder/TMDS_shift_green<3>
+                                                       HDMI1_Encoder/Mmux_GND_2_o_TMDS_green[9]_mux_4_OUT21
+                                                       HDMI1_Encoder/TMDS_shift_green_1
+    -------------------------------------------------  ---------------------------
+    Total                                      3.398ns (0.788ns logic, 2.610ns route)
+                                                       (23.2% logic, 76.8% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: PERIOD analysis for net "HDMI1_Encoder/DCM_TMDS_CLKFX" derived from
+ NET "pixclk_IBUFG" PERIOD = 31.25 ns HIGH 50%;
+ divided by 10.00 to 3.125 nS and duty cycle corrected to HIGH 1.562 nS 
+
+--------------------------------------------------------------------------------
+
+Paths for end point HDMI1_Encoder/TMDS_shift_green_2 (SLICE_X14Y49.C6), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.232ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               HDMI1_Encoder/encode_G/TMDS_6 (FF)
+  Destination:          HDMI1_Encoder/TMDS_shift_green_2 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      1.861ns (Levels of Logic = 1)
+  Clock Path Skew:      1.334ns (2.191 - 0.857)
+  Source Clock:         pixclk_IBUFG_BUFG rising at 0.000ns
+  Destination Clock:    HDMI1_Encoder/clk_TMDS rising at 0.000ns
+  Clock Uncertainty:    0.295ns
+
+  Clock Uncertainty:          0.295ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.220ns
+    Phase Error (PE):           0.150ns
+
+  Minimum Data Path at Fast Process Corner: HDMI1_Encoder/encode_G/TMDS_6 to HDMI1_Encoder/TMDS_shift_green_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X13Y45.AQ      Tcko                  0.198   HDMI1_Encoder/encode_G/TMDS<6>
+                                                       HDMI1_Encoder/encode_G/TMDS_6
+    SLICE_X14Y49.C6      net (fanout=3)        1.473   HDMI1_Encoder/encode_G/TMDS<6>
+    SLICE_X14Y49.CLK     Tah         (-Th)    -0.190   HDMI1_Encoder/TMDS_shift_green<3>
+                                                       HDMI1_Encoder/Mmux_GND_2_o_TMDS_green[9]_mux_4_OUT31
+                                                       HDMI1_Encoder/TMDS_shift_green_2
+    -------------------------------------------------  ---------------------------
+    Total                                      1.861ns (0.388ns logic, 1.473ns route)
+                                                       (20.8% logic, 79.2% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point HDMI1_Encoder/TMDS_shift_green_6 (SLICE_X15Y49.C6), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.257ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               HDMI1_Encoder/encode_G/TMDS_6 (FF)
+  Destination:          HDMI1_Encoder/TMDS_shift_green_6 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      1.886ns (Levels of Logic = 1)
+  Clock Path Skew:      1.334ns (2.191 - 0.857)
+  Source Clock:         pixclk_IBUFG_BUFG rising at 0.000ns
+  Destination Clock:    HDMI1_Encoder/clk_TMDS rising at 0.000ns
+  Clock Uncertainty:    0.295ns
+
+  Clock Uncertainty:          0.295ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.220ns
+    Phase Error (PE):           0.150ns
+
+  Minimum Data Path at Fast Process Corner: HDMI1_Encoder/encode_G/TMDS_6 to HDMI1_Encoder/TMDS_shift_green_6
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X13Y45.AQ      Tcko                  0.198   HDMI1_Encoder/encode_G/TMDS<6>
+                                                       HDMI1_Encoder/encode_G/TMDS_6
+    SLICE_X15Y49.C6      net (fanout=3)        1.473   HDMI1_Encoder/encode_G/TMDS<6>
+    SLICE_X15Y49.CLK     Tah         (-Th)    -0.215   HDMI1_Encoder/TMDS_shift_green<7>
+                                                       HDMI1_Encoder/Mmux_GND_2_o_TMDS_green[9]_mux_4_OUT71
+                                                       HDMI1_Encoder/TMDS_shift_green_6
+    -------------------------------------------------  ---------------------------
+    Total                                      1.886ns (0.413ns logic, 1.473ns route)
+                                                       (21.9% logic, 78.1% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point HDMI1_Encoder/TMDS_shift_blue_4 (SLICE_X14Y44.A5), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.356ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               HDMI1_Encoder/encode_B/TMDS_6 (FF)
+  Destination:          HDMI1_Encoder/TMDS_shift_blue_4 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      1.925ns (Levels of Logic = 1)
+  Clock Path Skew:      1.274ns (2.127 - 0.853)
+  Source Clock:         pixclk_IBUFG_BUFG rising at 0.000ns
+  Destination Clock:    HDMI1_Encoder/clk_TMDS rising at 0.000ns
+  Clock Uncertainty:    0.295ns
+
+  Clock Uncertainty:          0.295ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.220ns
+    Phase Error (PE):           0.150ns
+
+  Minimum Data Path at Fast Process Corner: HDMI1_Encoder/encode_B/TMDS_6 to HDMI1_Encoder/TMDS_shift_blue_4
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X14Y43.AQ      Tcko                  0.200   HDMI1_Encoder/encode_G/TMDS<8>
+                                                       HDMI1_Encoder/encode_B/TMDS_6
+    SLICE_X14Y44.A5      net (fanout=3)        1.535   HDMI1_Encoder/encode_B/TMDS<6>
+    SLICE_X14Y44.CLK     Tah         (-Th)    -0.190   HDMI1_Encoder/TMDS_shift_blue<7>
+                                                       HDMI1_Encoder/Mmux_GND_2_o_TMDS_blue[9]_mux_5_OUT51
+                                                       HDMI1_Encoder/TMDS_shift_blue_4
+    -------------------------------------------------  ---------------------------
+    Total                                      1.925ns (0.390ns logic, 1.535ns route)
+                                                       (20.3% logic, 79.7% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: PERIOD analysis for net "HDMI1_Encoder/DCM_TMDS_CLKFX" derived from
+ NET "pixclk_IBUFG" PERIOD = 31.25 ns HIGH 50%;
+ divided by 10.00 to 3.125 nS and duty cycle corrected to HIGH 1.562 nS 
+
+--------------------------------------------------------------------------------
+Slack: 0.455ns (period - min period limit)
+  Period: 3.125ns
+  Min period limit: 2.670ns (374.532MHz) (Tdcmper_CLKFX)
+  Physical resource: HDMI1_Encoder/DCM_TMDS_inst/CLKFX
+  Logical resource: HDMI1_Encoder/DCM_TMDS_inst/CLKFX
+  Location pin: DCM_X0Y2.CLKFX
+  Clock network: HDMI1_Encoder/DCM_TMDS_CLKFX
+--------------------------------------------------------------------------------
+Slack: 1.395ns (period - min period limit)
+  Period: 3.125ns
+  Min period limit: 1.730ns (578.035MHz) (Tbcper_I)
+  Physical resource: HDMI1_Encoder/BUFG_TMDSp/I0
+  Logical resource: HDMI1_Encoder/BUFG_TMDSp/I0
+  Location pin: BUFGMUX_X2Y3.I0
+  Clock network: HDMI1_Encoder/DCM_TMDS_CLKFX
+--------------------------------------------------------------------------------
+Slack: 2.695ns (period - min period limit)
+  Period: 3.125ns
+  Min period limit: 0.430ns (2325.581MHz) (Tcp)
+  Physical resource: HDMI1_Encoder/TMDS_shift_blue<7>/CLK
+  Logical resource: HDMI1_Encoder/TMDS_shift_blue_4/CK
+  Location pin: SLICE_X14Y44.CLK
+  Clock network: HDMI1_Encoder/clk_TMDS
+--------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for pixclk_IBUFG
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|pixclk_IBUFG                   |     31.250ns|     16.000ns|     31.160ns|            0|            0|          985|          107|
+| HDMI1_Encoder/DCM_TMDS_CLKFX  |      3.125ns|      3.116ns|          N/A|            0|            0|          107|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock pixclk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+pixclk         |    3.116|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 1092 paths, 0 nets, and 362 connections
+
+Design statistics:
+   Minimum period:  16.000ns{1}   (Maximum frequency:  62.500MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Sat Oct 11 09:51:23 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 391 MB
+
+
+

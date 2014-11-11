@@ -1,0 +1,48 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Nov 11 12:04:37 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "tmds_out_n<0>" LOCATE = SITE "A13" LEVEL 1;
+COMP "tmds_out_n<1>" LOCATE = SITE "A12" LEVEL 1;
+COMP "tmds_out_n<2>" LOCATE = SITE "A11" LEVEL 1;
+COMP "tmds_out_n<3>" LOCATE = SITE "A14" LEVEL 1;
+COMP "tmds_out_p<0>" LOCATE = SITE "C13" LEVEL 1;
+COMP "tmds_out_p<1>" LOCATE = SITE "B12" LEVEL 1;
+COMP "tmds_out_p<2>" LOCATE = SITE "C11" LEVEL 1;
+COMP "tmds_out_p<3>" LOCATE = SITE "B14" LEVEL 1;
+COMP "hdmi_c0_n" LOCATE = SITE "A5" LEVEL 1;
+COMP "hdmi_c0_p" LOCATE = SITE "B5" LEVEL 1;
+COMP "hdmi_c1_n" LOCATE = SITE "C7" LEVEL 1;
+COMP "hdmi_c1_p" LOCATE = SITE "A7" LEVEL 1;
+COMP "hdmi_c2_n" LOCATE = SITE "B6" LEVEL 1;
+COMP "hdmi_c2_p" LOCATE = SITE "A6" LEVEL 1;
+COMP "blue<0>" LOCATE = SITE "D5" LEVEL 1;
+COMP "blue<1>" LOCATE = SITE "C5" LEVEL 1;
+COMP "hdmi_sdat" LOCATE = SITE "B1" LEVEL 1;
+COMP "hdmi_sclk" LOCATE = SITE "C1" LEVEL 1;
+COMP "clk32" LOCATE = SITE "J4" LEVEL 1;
+COMP "clk50" LOCATE = SITE "K3" LEVEL 1;
+COMP "btns<0>" LOCATE = SITE "L1" LEVEL 1;
+COMP "btns<1>" LOCATE = SITE "L3" LEVEL 1;
+COMP "btns<2>" LOCATE = SITE "L4" LEVEL 1;
+COMP "btns<3>" LOCATE = SITE "L5" LEVEL 1;
+COMP "hdmi_clk_n" LOCATE = SITE "A9" LEVEL 1;
+COMP "hdmi_clk_p" LOCATE = SITE "C9" LEVEL 1;
+COMP "red<0>" LOCATE = SITE "D6" LEVEL 1;
+COMP "red<1>" LOCATE = SITE "E6" LEVEL 1;
+COMP "red<2>" LOCATE = SITE "C6" LEVEL 1;
+COMP "green<0>" LOCATE = SITE "A4" LEVEL 1;
+COMP "green<1>" LOCATE = SITE "G5" LEVEL 1;
+COMP "green<2>" LOCATE = SITE "A3" LEVEL 1;
+COMP "hsync0" LOCATE = SITE "J1" LEVEL 1;
+COMP "hsync1" LOCATE = SITE "G3" LEVEL 1;
+COMP "hsync2" LOCATE = SITE "H2" LEVEL 1;
+COMP "vsync0" LOCATE = SITE "G1" LEVEL 1;
+COMP "vsync1" LOCATE = SITE "H1" LEVEL 1;
+COMP "vsync2" LOCATE = SITE "H3" LEVEL 1;
+NET "clk32_IBUF" PERIOD = 31.25 ns HIGH 50%;
+NET "clk50_IBUF" PERIOD = 20 ns HIGH 50%;
+SCHEMATIC END;
+

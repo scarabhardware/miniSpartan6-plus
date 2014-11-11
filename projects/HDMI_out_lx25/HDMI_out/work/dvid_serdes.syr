@@ -1,0 +1,687 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: dvid_serdes.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "dvid_serdes.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "dvid_serdes"
+Output Format                      : NGC
+Target Device                      : xc6slx25-3-ftg256
+
+---- Source Options
+Top Module Name                    : dvid_serdes
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"../ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/media/ufarooq/My Passport/VHDL/HDMI_out/ipcore_dir/tmds_out_fifo.vhd" into library work
+Parsing entity <tmds_out_fifo>.
+Parsing architecture <tmds_out_fifo_a> of entity <tmds_out_fifo>.
+Parsing VHDL file "/media/ufarooq/My Passport/VHDL/HDMI_out/tmds_encoder.vhd" into library work
+Parsing entity <TMDS_encoder>.
+Parsing architecture <Behavioral> of entity <tmds_encoder>.
+Parsing VHDL file "/media/ufarooq/My Passport/VHDL/HDMI_out/output_serialiser.vhd" into library work
+Parsing entity <output_serialiser>.
+Parsing architecture <Behavioral> of entity <output_serialiser>.
+Parsing VHDL file "/media/ufarooq/My Passport/VHDL/HDMI_out/vga_gen.vhd" into library work
+Parsing entity <vga_gen>.
+Parsing architecture <Behavioral> of entity <vga_gen>.
+Parsing VHDL file "/media/ufarooq/My Passport/VHDL/HDMI_out/dvid_out.vhd" into library work
+Parsing entity <dvid_out>.
+Parsing architecture <Behavioral> of entity <dvid_out>.
+Parsing VHDL file "/media/ufarooq/My Passport/VHDL/HDMI_out/clocking.vhd" into library work
+Parsing entity <clocking>.
+Parsing architecture <Behavioral> of entity <clocking>.
+Parsing VHDL file "/media/ufarooq/My Passport/VHDL/HDMI_out/dvid_serdes.vhd" into library work
+Parsing entity <dvid_serdes>.
+Parsing architecture <Behavioral> of entity <dvid_serdes>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <dvid_serdes> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <clocking> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <vga_gen> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <dvid_out> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <TMDS_encoder> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <tmds_out_fifo> (architecture <tmds_out_fifo_a>) from library <work>.
+
+Elaborating entity <output_serialiser> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <dvid_serdes>.
+    Related source file is "/media/ufarooq/My Passport/VHDL/HDMI_out/dvid_serdes.vhd".
+INFO:Xst:3210 - "/media/ufarooq/My Passport/VHDL/HDMI_out/dvid_serdes.vhd" line 104: Output port <pclk> of the instance <i_vga_gen> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <dvid_serdes> synthesized.
+
+Synthesizing Unit <clocking>.
+    Related source file is "/media/ufarooq/My Passport/VHDL/HDMI_out/clocking.vhd".
+    Summary:
+	no macro.
+Unit <clocking> synthesized.
+
+Synthesizing Unit <vga_gen>.
+    Related source file is "/media/ufarooq/My Passport/VHDL/HDMI_out/vga_gen.vhd".
+    Found 8-bit register for signal <green>.
+    Found 8-bit register for signal <blue>.
+    Found 1-bit register for signal <blank>.
+    Found 1-bit register for signal <hsync>.
+    Found 1-bit register for signal <vsync>.
+    Found 12-bit register for signal <h_count>.
+    Found 12-bit register for signal <v_count>.
+    Found 8-bit register for signal <red>.
+    Found 8-bit adder for signal <h_count[7]_v_count[7]_add_3_OUT> created at line 47.
+    Found 12-bit adder for signal <v_count[11]_GND_8_o_add_58_OUT> created at line 1241.
+    Found 12-bit adder for signal <h_count[11]_GND_8_o_add_60_OUT> created at line 1241.
+    Found 12-bit comparator greater for signal <h_count[11]_GND_8_o_LessThan_1_o> created at line 42
+    Found 12-bit comparator greater for signal <v_count[11]_GND_8_o_LessThan_2_o> created at line 42
+    Found 12-bit comparator greater for signal <h_count[11]_GND_8_o_LessThan_10_o> created at line 67
+    Found 12-bit comparator greater for signal <n0012> created at line 67
+    Found 12-bit comparator greater for signal <h_count[11]_GND_8_o_LessThan_14_o> created at line 67
+    Found 12-bit comparator greater for signal <h_count[11]_GND_8_o_LessThan_18_o> created at line 73
+    Found 12-bit comparator greater for signal <n0023> created at line 73
+    Found 12-bit comparator greater for signal <h_count[11]_GND_8_o_LessThan_22_o> created at line 73
+    Found 12-bit comparator lessequal for signal <n0071> created at line 110
+    Found 12-bit comparator greater for signal <h_count[11]_GND_8_o_LessThan_54_o> created at line 110
+    Found 12-bit comparator lessequal for signal <n0075> created at line 116
+    Found 12-bit comparator greater for signal <v_count[11]_GND_8_o_LessThan_56_o> created at line 116
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred  51 D-type flip-flop(s).
+	inferred  12 Comparator(s).
+	inferred  12 Multiplexer(s).
+Unit <vga_gen> synthesized.
+
+Synthesizing Unit <dvid_out>.
+    Related source file is "/media/ufarooq/My Passport/VHDL/HDMI_out/dvid_out.vhd".
+INFO:Xst:3210 - "/media/ufarooq/My Passport/VHDL/HDMI_out/dvid_out.vhd" line 90: Output port <full> of the instance <out_fifo> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/media/ufarooq/My Passport/VHDL/HDMI_out/dvid_out.vhd" line 90: Output port <empty> of the instance <out_fifo> is unconnected or connected to loadless signal.
+    Found 5-bit register for signal <ser_in_green>.
+    Found 5-bit register for signal <ser_in_blue>.
+    Found 5-bit register for signal <ser_in_clock>.
+    Found 1-bit register for signal <rd_enable>.
+    Found 5-bit register for signal <ser_in_red>.
+    Summary:
+	inferred  21 D-type flip-flop(s).
+	inferred   3 Multiplexer(s).
+Unit <dvid_out> synthesized.
+
+Synthesizing Unit <TMDS_encoder>.
+    Related source file is "/media/ufarooq/My Passport/VHDL/HDMI_out/tmds_encoder.vhd".
+    Found 4-bit register for signal <dc_bias>.
+    Found 10-bit register for signal <encoded>.
+    Found 4-bit adder for signal <n0156> created at line 54.
+    Found 4-bit adder for signal <n0159> created at line 54.
+    Found 4-bit adder for signal <n0162> created at line 54.
+    Found 4-bit adder for signal <n0165> created at line 54.
+    Found 4-bit adder for signal <n0168> created at line 54.
+    Found 4-bit adder for signal <n0171> created at line 54.
+    Found 4-bit adder for signal <ones> created at line 54.
+    Found 4-bit adder for signal <n0176> created at line 70.
+    Found 4-bit adder for signal <n0179> created at line 70.
+    Found 4-bit adder for signal <n0182> created at line 70.
+    Found 4-bit adder for signal <n0185> created at line 70.
+    Found 4-bit adder for signal <n0188> created at line 70.
+    Found 4-bit adder for signal <n0191> created at line 70.
+    Found 4-bit adder for signal <n0194> created at line 70.
+    Found 4-bit adder for signal <data_word_disparity> created at line 70.
+    Found 4-bit adder for signal <dc_bias[3]_data_word_disparity[3]_add_25_OUT> created at line 91.
+    Found 4-bit adder for signal <dc_bias[3]_GND_12_o_add_29_OUT> created at line 99.
+    Found 4-bit adder for signal <GND_12_o_data_word_disparity[3]_add_32_OUT> created at line 102.
+    Found 4-bit subtractor for signal <GND_12_o_GND_12_o_sub_27_OUT<3:0>> created at line 94.
+    Found 4-bit subtractor for signal <GND_12_o_GND_12_o_sub_31_OUT<3:0>> created at line 99.
+    Found 4-bit subtractor for signal <n0203> created at line 0.
+    Found 4-bit comparator greater for signal <GND_12_o_ones[3]_LessThan_9_o> created at line 60
+    Summary:
+	inferred  20 Adder/Subtractor(s).
+	inferred  14 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred  15 Multiplexer(s).
+Unit <TMDS_encoder> synthesized.
+
+Synthesizing Unit <output_serialiser>.
+    Related source file is "/media/ufarooq/My Passport/VHDL/HDMI_out/output_serialiser.vhd".
+    Summary:
+	no macro.
+Unit <output_serialiser> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 63
+ 12-bit adder                                          : 2
+ 4-bit adder                                           : 51
+ 4-bit addsub                                          : 3
+ 4-bit subtractor                                      : 6
+ 8-bit adder                                           : 1
+# Registers                                            : 19
+ 1-bit register                                        : 4
+ 10-bit register                                       : 3
+ 12-bit register                                       : 2
+ 4-bit register                                        : 3
+ 5-bit register                                        : 4
+ 8-bit register                                        : 3
+# Comparators                                          : 15
+ 12-bit comparator greater                             : 10
+ 12-bit comparator lessequal                           : 2
+ 4-bit comparator greater                              : 3
+# Multiplexers                                         : 60
+ 1-bit 2-to-1 multiplexer                              : 24
+ 10-bit 2-to-1 multiplexer                             : 9
+ 4-bit 2-to-1 multiplexer                              : 6
+ 5-bit 2-to-1 multiplexer                              : 3
+ 8-bit 2-to-1 multiplexer                              : 12
+ 9-bit 2-to-1 multiplexer                              : 6
+# Xors                                                 : 43
+ 1-bit xor2                                            : 43
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <../ipcore_dir/tmds_out_fifo.ngc>.
+Loading core <tmds_out_fifo> for timing and area information for instance <out_fifo>.
+
+Synthesizing (advanced) Unit <TMDS_encoder>.
+The following registers are absorbed into accumulator <dc_bias>: 1 register on signal <dc_bias>.
+	The following adders/subtractors are grouped into adder tree <Madd_data_word_disparity_Madd1> :
+ 	<Madd_n0179_Madd> in block <TMDS_encoder>, 	<Madd_n0185_Madd> in block <TMDS_encoder>, 	<Madd_n0191_Madd> in block <TMDS_encoder>, 	<Madd_data_word_disparity_Madd> in block <TMDS_encoder>.
+	The following adders/subtractors are grouped into adder tree <Madd_ones_Madd1> :
+ 	<Madd_n0162_Madd> in block <TMDS_encoder>, 	<Madd_n0168_Madd> in block <TMDS_encoder>, 	<Madd_ones_Madd> in block <TMDS_encoder>.
+Unit <TMDS_encoder> synthesized (advanced).
+
+Synthesizing (advanced) Unit <vga_gen>.
+The following registers are absorbed into counter <h_count>: 1 register on signal <h_count>.
+The following registers are absorbed into counter <v_count>: 1 register on signal <v_count>.
+Unit <vga_gen> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 16
+ 4-bit adder                                           : 9
+ 4-bit subtractor                                      : 6
+ 8-bit adder                                           : 1
+# Adder Trees                                          : 6
+ 4-bit / 4-inputs adder tree                           : 6
+# Counters                                             : 2
+ 12-bit up counter                                     : 2
+# Accumulators                                         : 3
+ 4-bit updown loadable accumulator                     : 3
+# Registers                                            : 78
+ Flip-Flops                                            : 78
+# Comparators                                          : 15
+ 12-bit comparator greater                             : 10
+ 12-bit comparator lessequal                           : 2
+ 4-bit comparator greater                              : 3
+# Multiplexers                                         : 57
+ 1-bit 2-to-1 multiplexer                              : 24
+ 10-bit 2-to-1 multiplexer                             : 9
+ 4-bit 2-to-1 multiplexer                              : 3
+ 5-bit 2-to-1 multiplexer                              : 3
+ 8-bit 2-to-1 multiplexer                              : 12
+ 9-bit 2-to-1 multiplexer                              : 6
+# Xors                                                 : 43
+ 1-bit xor2                                            : 43
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:1901 - Instance Inst_clocking/PLL_BASE_inst in unit Inst_clocking/PLL_BASE_inst of type PLL_BASE has been replaced by PLL_ADV
+
+Optimizing unit <dvid_serdes> ...
+
+Optimizing unit <vga_gen> ...
+
+Optimizing unit <dvid_out> ...
+
+Optimizing unit <TMDS_encoder> ...
+INFO:Xst:2261 - The FF/Latch <i_dvid_out/ser_in_clock_4> in Unit <dvid_serdes> is equivalent to the following 4 FFs/Latches, which will be removed : <i_dvid_out/ser_in_clock_3> <i_dvid_out/ser_in_clock_2> <i_dvid_out/ser_in_clock_1> <i_dvid_out/ser_in_clock_0> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block dvid_serdes, actual ratio is 2.
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_0> in Unit <i_dvid_out/out_fifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_0_1> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i> in Unit <i_dvid_out/out_fifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i> in Unit <i_dvid_out/out_fifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_0> in Unit <i_dvid_out/out_fifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_0_1> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i> in Unit <i_dvid_out/out_fifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i> in Unit <i_dvid_out/out_fifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i> 
+FlipFlop i_vga_gen/blue_0 has been replicated 5 time(s)
+FlipFlop i_vga_gen/blue_1 has been replicated 4 time(s)
+FlipFlop i_vga_gen/blue_2 has been replicated 4 time(s)
+FlipFlop i_vga_gen/blue_3 has been replicated 4 time(s)
+FlipFlop i_vga_gen/blue_4 has been replicated 4 time(s)
+FlipFlop i_vga_gen/blue_5 has been replicated 2 time(s)
+FlipFlop i_vga_gen/blue_6 has been replicated 5 time(s)
+FlipFlop i_vga_gen/blue_7 has been replicated 2 time(s)
+FlipFlop i_vga_gen/green_0 has been replicated 5 time(s)
+FlipFlop i_vga_gen/green_1 has been replicated 4 time(s)
+FlipFlop i_vga_gen/green_2 has been replicated 4 time(s)
+FlipFlop i_vga_gen/green_3 has been replicated 4 time(s)
+FlipFlop i_vga_gen/green_4 has been replicated 4 time(s)
+FlipFlop i_vga_gen/green_5 has been replicated 2 time(s)
+FlipFlop i_vga_gen/green_6 has been replicated 5 time(s)
+FlipFlop i_vga_gen/green_7 has been replicated 2 time(s)
+FlipFlop i_vga_gen/red_0 has been replicated 5 time(s)
+FlipFlop i_vga_gen/red_1 has been replicated 4 time(s)
+FlipFlop i_vga_gen/red_2 has been replicated 4 time(s)
+FlipFlop i_vga_gen/red_3 has been replicated 4 time(s)
+FlipFlop i_vga_gen/red_4 has been replicated 4 time(s)
+FlipFlop i_vga_gen/red_5 has been replicated 2 time(s)
+FlipFlop i_vga_gen/red_6 has been replicated 5 time(s)
+FlipFlop i_vga_gen/red_7 has been replicated 2 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 200
+ Flip-Flops                                            : 200
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : dvid_serdes.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 695
+#      GND                         : 2
+#      INV                         : 8
+#      LUT1                        : 22
+#      LUT2                        : 36
+#      LUT3                        : 69
+#      LUT4                        : 75
+#      LUT5                        : 81
+#      LUT6                        : 330
+#      MUXCY                       : 29
+#      MUXF7                       : 10
+#      VCC                         : 1
+#      XORCY                       : 32
+# FlipFlops/Latches                : 288
+#      FD                          : 73
+#      FDE                         : 64
+#      FDR                         : 25
+#      FDRE                        : 126
+# RAMS                             : 5
+#      RAM32M                      : 5
+# Clock Buffers                    : 4
+#      BUFG                        : 4
+# IO Buffers                       : 11
+#      IBUF                        : 4
+#      IBUFG                       : 1
+#      OBUF                        : 2
+#      OBUFDS                      : 4
+# Others                           : 10
+#      BUFPLL                      : 1
+#      OSERDES2                    : 8
+#      PLL_ADV                     : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx25ftg256-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             288  out of  30064     0%  
+ Number of Slice LUTs:                  641  out of  15032     4%  
+    Number used as Logic:               621  out of  15032     4%  
+    Number used as Memory:               20  out of   3664     0%  
+       Number used as RAM:               20
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    760
+   Number with an unused Flip Flop:     472  out of    760    62%  
+   Number with an unused LUT:           119  out of    760    15%  
+   Number of fully used LUT-FF pairs:   169  out of    760    22%  
+   Number of unique control sets:        13
+
+IO Utilization: 
+ Number of IOs:                          15
+ Number of bonded IOBs:                  15  out of    186     8%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                4  out of     16    25%  
+ Number of PLL_ADVs:                      1  out of      2    50%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Inst_clocking/PLL_BASE_inst/CLKOUT2| BUFG                   | 215   |
+Inst_clocking/PLL_BASE_inst/CLKOUT1| BUFG                   | 78    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 8.159ns (Maximum Frequency: 122.569MHz)
+   Minimum input arrival time before clock: 5.216ns
+   Maximum output required time after clock: 3.900ns
+   Maximum combinational path delay: 3.150ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_clocking/PLL_BASE_inst/CLKOUT2'
+  Clock period: 8.159ns (frequency: 122.569MHz)
+  Total number of paths / destination ports: 69522 / 432
+-------------------------------------------------------------------------
+Delay:               8.159ns (Levels of Logic = 7)
+  Source:            i_vga_gen/blue_1_4 (FF)
+  Destination:       i_dvid_out/TMDS_encoder_blue/dc_bias_3 (FF)
+  Source Clock:      Inst_clocking/PLL_BASE_inst/CLKOUT2 rising
+  Destination Clock: Inst_clocking/PLL_BASE_inst/CLKOUT2 rising
+
+  Data Path: i_vga_gen/blue_1_4 to i_dvid_out/TMDS_encoder_blue/dc_bias_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            13   0.447   1.277  i_vga_gen/blue_1_4 (i_vga_gen/blue_1_4)
+     LUT6:I1->O            1   0.203   0.827  i_dvid_out/TMDS_encoder_blue/GND_12_o_GND_12_o_OR_28_o6_SW16_SW2 (N441)
+     LUT6:I2->O            1   0.203   0.827  i_dvid_out/TMDS_encoder_blue/GND_12_o_GND_12_o_OR_28_o6_SW16 (N245)
+     LUT6:I2->O           10   0.203   1.085  i_dvid_out/TMDS_encoder_blue/ADDERTREE_INTERNAL_Madd6_cy<0>11 (i_dvid_out/TMDS_encoder_blue/ADDERTREE_INTERNAL_Madd6_cy<0>)
+     LUT6:I3->O           16   0.205   1.005  i_dvid_out/TMDS_encoder_blue/GND_12_o_GND_12_o_OR_29_o4 (i_dvid_out/TMDS_encoder_blue/GND_12_o_GND_12_o_OR_29_o)
+     LUT6:I5->O            1   0.205   0.580  i_dvid_out/TMDS_encoder_blue/Maccum_dc_bias_cy<1>11 (i_dvid_out/TMDS_encoder_blue/Maccum_dc_bias_cy<1>)
+     LUT6:I5->O            1   0.205   0.580  i_dvid_out/TMDS_encoder_blue/Maccum_dc_bias_xor<3>11_SW0 (N258)
+     LUT6:I5->O            1   0.205   0.000  i_dvid_out/TMDS_encoder_blue/Maccum_dc_bias_xor<3>11 (i_dvid_out/TMDS_encoder_blue/Result<3>)
+     FDR:D                     0.102          i_dvid_out/TMDS_encoder_blue/dc_bias_3
+    ----------------------------------------
+    Total                      8.159ns (1.978ns logic, 6.181ns route)
+                                       (24.2% logic, 75.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_clocking/PLL_BASE_inst/CLKOUT1'
+  Clock period: 3.683ns (frequency: 271.501MHz)
+  Total number of paths / destination ports: 274 / 130
+-------------------------------------------------------------------------
+Delay:               3.683ns (Levels of Logic = 3)
+  Source:            i_dvid_out/rd_enable (FF)
+  Destination:       i_dvid_out/out_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i (FF)
+  Source Clock:      Inst_clocking/PLL_BASE_inst/CLKOUT1 rising
+  Destination Clock: Inst_clocking/PLL_BASE_inst/CLKOUT1 rising
+
+  Data Path: i_dvid_out/rd_enable to i_dvid_out/out_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             54   0.447   1.918  i_dvid_out/rd_enable (i_dvid_out/rd_enable)
+     begin scope: 'i_dvid_out/out_fifo:rd_en'
+     LUT5:I0->O            1   0.203   0.808  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/comp0_comp1_OR_3_o3 (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/comp0_comp1_OR_3_o3)
+     LUT6:I3->O            2   0.205   0.000  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/comp0_comp1_OR_3_o4 (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/comp0_comp1_OR_3_o)
+     FD:D                      0.102          U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i
+    ----------------------------------------
+    Total                      3.683ns (0.957ns logic, 2.726ns route)
+                                       (26.0% logic, 74.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_clocking/PLL_BASE_inst/CLKOUT2'
+  Total number of paths / destination ports: 1030 / 229
+-------------------------------------------------------------------------
+Offset:              5.216ns (Levels of Logic = 3)
+  Source:            btns<2> (PAD)
+  Destination:       i_vga_gen/blank (FF)
+  Destination Clock: Inst_clocking/PLL_BASE_inst/CLKOUT2 rising
+
+  Data Path: btns<2> to i_vga_gen/blank
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            28   1.222   1.339  btns_2_IBUF (btns_2_IBUF)
+     LUT4:I2->O          115   0.203   2.145  i_vga_gen/_n0186_inv1 (i_vga_gen/_n0186_inv)
+     LUT4:I1->O            1   0.205   0.000  i_vga_gen/blank_glue_set (i_vga_gen/blank_glue_set)
+     FD:D                      0.102          i_vga_gen/blank
+    ----------------------------------------
+    Total                      5.216ns (1.732ns logic, 3.484ns route)
+                                       (33.2% logic, 66.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_clocking/PLL_BASE_inst/CLKOUT2'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              3.900ns (Levels of Logic = 1)
+  Source:            i_vga_gen/hsync (FF)
+  Destination:       leds<0> (PAD)
+  Source Clock:      Inst_clocking/PLL_BASE_inst/CLKOUT2 rising
+
+  Data Path: i_vga_gen/hsync to leds<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              11   0.447   0.882  i_vga_gen/hsync (i_vga_gen/hsync)
+     OBUF:I->O                 2.571          leds_0_OBUF (leds<0>)
+    ----------------------------------------
+    Total                      3.900ns (3.018ns logic, 0.882ns route)
+                                       (77.4% logic, 22.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_clocking/PLL_BASE_inst/CLKOUT1'
+  Total number of paths / destination ports: 20 / 20
+-------------------------------------------------------------------------
+Offset:              1.191ns (Levels of Logic = 0)
+  Source:            i_dvid_out/ser_in_clock_4 (FF)
+  Destination:       i_dvid_out/output_serialiser_c/OSERDES2_master:D1 (PAD)
+  Source Clock:      Inst_clocking/PLL_BASE_inst/CLKOUT1 rising
+
+  Data Path: i_dvid_out/ser_in_clock_4 to i_dvid_out/output_serialiser_c/OSERDES2_master:D1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              6   0.447   0.744  i_dvid_out/ser_in_clock_4 (i_dvid_out/ser_in_clock_4)
+    OSERDES2:D1                0.000          i_dvid_out/output_serialiser_c/OSERDES2_slave
+    ----------------------------------------
+    Total                      1.191ns (0.447ns logic, 0.744ns route)
+                                       (37.5% logic, 62.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 40 / 40
+-------------------------------------------------------------------------
+Delay:               3.150ns (Levels of Logic = 1)
+  Source:            i_dvid_out/output_serialiser_c/OSERDES2_master:OQ (PAD)
+  Destination:       tmds_out_p<3> (PAD)
+
+  Data Path: i_dvid_out/output_serialiser_c/OSERDES2_master:OQ to tmds_out_p<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    OSERDES2:OQ            1   0.000   0.579  i_dvid_out/output_serialiser_c/OSERDES2_master (tmds_out_clock_t)
+     OBUFDS:I->O               2.571          OBUFDS_clock (tmds_out_p<3>)
+    ----------------------------------------
+    Total                      3.150ns (2.571ns logic, 0.579ns route)
+                                       (81.6% logic, 18.4% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Inst_clocking/PLL_BASE_inst/CLKOUT1
+-----------------------------------+---------+---------+---------+---------+
+                                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------------------------+---------+---------+---------+---------+
+Inst_clocking/PLL_BASE_inst/CLKOUT1|    3.683|         |         |         |
+Inst_clocking/PLL_BASE_inst/CLKOUT2|    1.807|         |         |         |
+-----------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock Inst_clocking/PLL_BASE_inst/CLKOUT2
+-----------------------------------+---------+---------+---------+---------+
+                                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------------------------+---------+---------+---------+---------+
+Inst_clocking/PLL_BASE_inst/CLKOUT1|    1.128|         |         |         |
+Inst_clocking/PLL_BASE_inst/CLKOUT2|    8.159|         |         |         |
+-----------------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 13.36 secs
+ 
+--> 
+
+
+Total memory usage is 410868 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :   11 (   0 filtered)
+

@@ -1,0 +1,16 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Sat Oct 11 09:51:33 2014
+
+drc -z top.ncd top.pcf
+
+WARNING:PhysDesignRules:774 - Unexpected DCM configuration. CLKOUT_PHASE_SHIFT
+   is not configured VARIABLE for comp HDMI1_Encoder/DCM_TMDS_inst. The PSEN pin
+   is connected to an active signal. The PSEN pin should be connected to GND to
+   guarantee the expected operation.
+INFO:PhysDesignRules:1861 - To achieve optimal frequency synthesis performance
+   with the CLKFX and CLKFX180 outputs of the DCM comp
+   HDMI1_Encoder/DCM_TMDS_inst, consult the device Data Sheet.
+DRC detected 0 errors and 1 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

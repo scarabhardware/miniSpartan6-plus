@@ -1,0 +1,46 @@
+Release 14.7 ngdbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
+ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx25-ftg256-3 dvi_in.ngc
+dvi_in.ngd
+
+Reading NGO file "/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.ngc" ...
+Loading design module "/media/ufarooq/My
+Passport/VHDL/HDMI_in_out/tmds_out_fifo.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "pins.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem - The Period constraint <PERIOD = 50 MHz;> [pins.ucf(1)],
+   is specified using the Net Period method which is not recommended. Please use
+   the Timespec PERIOD method.
+
+INFO:ConstraintSystem - The Period constraint <PERIOD = 31.25ns;>
+   [pins.ucf(15)], is specified using the Net Period method which is not
+   recommended. Please use the Timespec PERIOD method.
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 407252 kilobytes
+
+Writing NGD file "dvi_in.ngd" ...
+Total REAL time to NGDBUILD completion:  3 sec
+Total CPU time to NGDBUILD completion:   3 sec
+
+Writing NGDBUILD log file "dvi_in.bld"...

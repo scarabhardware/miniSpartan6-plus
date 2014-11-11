@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Fri Apr 25 22:42:55 2014
+# Process ID: 8401
+# Log file: /home/hardwarer/Hello1/planAhead_run_1/planAhead.log
+# Journal file: /home/hardwarer/Hello1/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/hardwarer/Hello1/pa.fromNetlist.tcl

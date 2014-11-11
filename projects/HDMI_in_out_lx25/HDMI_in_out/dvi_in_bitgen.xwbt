@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.ncd
+OUTFILE=/media/ufarooq/My Passport/VHDL/HDMI_in_out/dvi_in.bit
+FAMILY=Spartan6
+PART=xc6slx25-3ftg256
+WORKINGDIR=/media/ufarooq/My Passport/VHDL/HDMI_in_out
+LICENSE=WebPack
+USER_INFO=210926568_0_0_400

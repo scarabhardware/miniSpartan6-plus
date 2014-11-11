@@ -1,0 +1,33 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/hardwarer/Hello1/top_tb_isim_beh.exe -prj /home/hardwarer/Hello1/top_tb_beh.prj work.top_tb work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/hardwarer/Hello1/top.v" into library work
+WARNING:HDLCompiler:751 - "/home/hardwarer/Hello1/top.v" Line 29: Redeclaration of ansi port pixclk is not allowed
+Analyzing Verilog file "/home/hardwarer/Hello1/top_tb.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "/home/hardwarer/Hello1/top.v" Line 101: Port CLK0 is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 95428 KB
+Fuse CPU Usage: 1690 ms
+Compiling module TMDS_encoder
+Compiling module dcm_sp_clock_divide_by_2
+Compiling module dcm_sp_maximum_period_check(cloc...
+Compiling module dcm_sp_maximum_period_check(cloc...
+Compiling module dcm_sp_clock_lost
+Compiling module DCM_SP(CLKFX_MULTIPLY=10)
+Compiling module BUFG
+Compiling module OBUFDS
+Compiling module HDMI_Encoder
+Compiling module top
+Compiling module top_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 9 sub-compilation(s) to finish...
+Compiled 12 Verilog Units
+Built simulation executable /home/hardwarer/Hello1/top_tb_isim_beh.exe
+Fuse Memory Usage: 397152 KB
+Fuse CPU Usage: 1810 ms
+GCC CPU Usage: 3200 ms

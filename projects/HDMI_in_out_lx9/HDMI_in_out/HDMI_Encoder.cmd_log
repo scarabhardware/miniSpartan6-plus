@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "/home/hardwarer/Hello1/HDMI_Encoder.xst" -ofn "/home/hardwarer/Hello1/HDMI_Encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-tqg144-3 HDMI_Encoder.ngc HDMI_Encoder.ngd  
+xst -intstyle ise -ifn "/home/hardwarer/Hello1/HDMI_Encoder.xst" -ofn "/home/hardwarer/Hello1/HDMI_Encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc6slx9-tqg144-3 HDMI_Encoder.ngc HDMI_Encoder.ngd  

@@ -1,0 +1,29 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Tue Nov 11 12:01:29 2014
+
+drc -z dvid_serdes.ncd dvid_serdes.pcf
+
+WARNING:PhysDesignRules:367 - The signal
+   <i_dvid_out/out_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_f
+   ifo.mem/gdm.dm/Mram_RAM3_RAMD_D1_O> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <i_dvid_out/out_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_f
+   ifo.mem/gdm.dm/Mram_RAM5_RAMD_D1_O> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <i_dvid_out/out_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_f
+   ifo.mem/gdm.dm/Mram_RAM2_RAMD_D1_O> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <i_dvid_out/out_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_f
+   ifo.mem/gdm.dm/Mram_RAM1_RAMD_D1_O> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <i_dvid_out/out_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_f
+   ifo.mem/gdm.dm/Mram_RAM4_RAMD_D1_O> is incomplete. The signal does not drive
+   any load pins in the design.
+DRC detected 0 errors and 5 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

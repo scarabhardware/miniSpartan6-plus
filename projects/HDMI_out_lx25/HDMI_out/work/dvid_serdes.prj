@@ -1,0 +1,7 @@
+vhdl work "../ipcore_dir/tmds_out_fifo.vhd"
+vhdl work "../tmds_encoder.vhd"
+vhdl work "../output_serialiser.vhd"
+vhdl work "../vga_gen.vhd"
+vhdl work "../dvid_out.vhd"
+vhdl work "../clocking.vhd"
+vhdl work "../dvid_serdes.vhd"
