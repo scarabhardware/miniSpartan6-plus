@@ -58,7 +58,7 @@ begin
       CLKOUT1_DIVIDE => 5,       CLKOUT1_PHASE => 0.0,   -- Output 2x original frequency
       CLKOUT2_DIVIDE => 10,      CLKOUT2_PHASE => 0.0,   -- Output 1x original frequency
       CLK_FEEDBACK => "CLKFBOUT",
-      CLKIN_PERIOD => 10.0,
+      CLKIN_PERIOD => 20.0,
       DIVCLK_DIVIDE => 1
    )
       port map (
