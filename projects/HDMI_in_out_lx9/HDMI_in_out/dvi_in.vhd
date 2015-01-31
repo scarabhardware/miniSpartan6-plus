@@ -191,10 +191,19 @@ architecture Behavioral of dvi_in is
 		clock_s : OUT std_logic
 		);
 	END COMPONENT;
+
+	COMPONENT edidslave
+	PORT(
+		rst_n : IN std_logic;
+		clk : IN std_logic;
+		scl : IN std_logic;
+		dvi_only : IN std_logic;
+		sda : INOUT std_logic
+		);
+	END COMPONENT;
 ---------------------------------------------------------------------
 
-
-begin  
+begin
 
 process (clk50)
 begin
@@ -226,10 +235,15 @@ begin
    ----------------------------------
    --leds <= framing;
 	----------------------------------
-   -- EDID I2C signals (not implemented)
+   -- EDID I2C signals
    ----------------------------------
-   hdmi_sclk <= '1';
-   hdmi_sdat <= '1';
+Inst_edidslave: edidslave PORT MAP(
+		rst_n => '1',
+		clk => hdmi_clk_buffered,
+		sda => hdmi_sdat,
+		scl => hdmi_sclk,
+		dvi_only => '1'
+	);
 
 ------------------------------------------
 -- Receive the differential clock
@@ -509,5 +523,5 @@ OBUFDS_blue  : OBUFDS port map ( O  => tmds_out_p(0), OB => tmds_out_n(0), I  =>
 OBUFDS_red   : OBUFDS port map ( O  => tmds_out_p(1), OB => tmds_out_n(1), I  => tmds_out_green_t);
 OBUFDS_green : OBUFDS port map ( O  => tmds_out_p(2), OB => tmds_out_n(2), I  => tmds_out_red_t);
 OBUFDS_clock : OBUFDS port map ( O  => tmds_out_p(3), OB => tmds_out_n(3), I  => tmds_out_clock_t);
-	
+
 end Behavioral;
