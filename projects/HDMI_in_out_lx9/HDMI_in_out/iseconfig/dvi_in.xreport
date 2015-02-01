@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2014-11-11T11:51:23</DateModified>
+  <DateModified>2015-01-31T16:14:14</DateModified>
   <ModuleName>dvi_in</ModuleName>
   <SummaryTimeStamp>2014-11-11T11:50:38</SummaryTimeStamp>
-  <SavedFilePath>/media/ufarooq/My Passport/VHDL/HDMI_in_out/iseconfig/dvi_in.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/media/ufarooq/My Passport/VHDL/HDMI_in_out/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/roman/projects/miniSpartan6-plus/projects/HDMI_in_out_lx9/HDMI_in_out/iseconfig/dvi_in.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/roman/projects/miniSpartan6-plus/projects/HDMI_in_out_lx9/HDMI_in_out/work/</ImplementationReportsDirectory>
   <DateInitialized>2014-10-12T12:51:07</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

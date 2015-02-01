@@ -40,9 +40,9 @@
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="77"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="8"/>
     </file>
-    <file xil_pn:name="tmds_decode.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="ipcore_dir/tmds_decode.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="78"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="3"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="4"/>
     </file>
     <file xil_pn:name="clocking.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="120"/>
@@ -56,19 +56,19 @@
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="123"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="7"/>
     </file>
-    <file xil_pn:name="tmds_out_fifo.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="ipcore_dir/tmds_out_fifo.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="124"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
-    </file>
-    <file xil_pn:name="tmds_encoder.vhd" xil_pn:type="FILE_VHDL">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="125"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="2"/>
+    </file>
+    <file xil_pn:name="ipcore_dir/tmds_encoder.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="125"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="3"/>
     </file>
     <file xil_pn:name="output_serialiser.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="126"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="4"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
     </file>
-    <file xil_pn:name="tmds_out_fifo.xco" xil_pn:type="FILE_COREGEN">
+    <file xil_pn:name="ipcore_dir/tmds_out_fifo.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="126"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
@@ -194,7 +194,7 @@
     <property xil_pn:name="Ignore User Timing Constraints Map" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Ignore User Timing Constraints Par" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Implementation Top" xil_pn:value="Architecture|dvi_in|Behavioral" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="Implementation Top File" xil_pn:value="dvi_in.vhd" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Implementation Top File" xil_pn:value="../dvi_in.vhd" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Implementation Top Instance Path" xil_pn:value="/dvi_in" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Include 'uselib Directive in Verilog File" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Include SIMPRIM Models in Verilog File" xil_pn:value="false" xil_pn:valueState="default"/>
@@ -386,7 +386,7 @@
     <property xil_pn:name="Wait for DCM and PLL Lock (Output Events) spartan6" xil_pn:value="Default (NoWait)" xil_pn:valueState="default"/>
     <property xil_pn:name="Wakeup Clock spartan6" xil_pn:value="Startup Clock" xil_pn:valueState="default"/>
     <property xil_pn:name="Watchdog Timer Value spartan6" xil_pn:value="0xFFFF" xil_pn:valueState="default"/>
-    <property xil_pn:name="Working Directory" xil_pn:value="." xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Working Directory" xil_pn:value="work" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Write Timing Constraints" xil_pn:value="false" xil_pn:valueState="default"/>
     <!--                                                                                  -->
     <!-- The following properties are for internal use only. These should not be modified.-->
@@ -403,8 +403,8 @@
     <property xil_pn:name="PROP_PreSynthesis" xil_pn:value="PreSynthesis" xil_pn:valueState="default"/>
     <property xil_pn:name="PROP_intProjectCreationTimestamp" xil_pn:value="2013-05-22T19:17:37" xil_pn:valueState="non-default"/>
     <property xil_pn:name="PROP_intWbtProjectID" xil_pn:value="85471DCDDEEB8A40FBE7EB8D62E47F8D" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="PROP_intWorkingDirLocWRTProjDir" xil_pn:value="Same" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="PROP_intWorkingDirUsed" xil_pn:value="No" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="PROP_intWorkingDirLocWRTProjDir" xil_pn:value="UnderProjDir" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="PROP_intWorkingDirUsed" xil_pn:value="Yes" xil_pn:valueState="non-default"/>
   </properties>
 
   <bindings/>
