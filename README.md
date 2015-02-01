@@ -16,3 +16,6 @@ xc3sprog -c ftdi -I dvid_serdes.bit
  - http://hamsterworks.co.nz/mediawiki/index.php/FPGA_Projects
  - https://github.com/timvideos/HDMI2USB
 
+## board pinout
+
+![board pinout](/miniSpartan6-plus.png)
