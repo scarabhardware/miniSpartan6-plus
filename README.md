@@ -2,7 +2,7 @@
 
 ## programming
 
-```
+```sh
 # program fpga
 xc3sprog -c ftdi dvid_serdes.bit
 # program SPI flash
