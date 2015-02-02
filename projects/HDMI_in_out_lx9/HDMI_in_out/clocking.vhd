@@ -46,7 +46,7 @@ begin
       CLKOUT1_DIVIDE => 5,       CLKOUT1_PHASE => 0.0,   -- Output 2x original frequency
       CLKOUT2_DIVIDE => 10,      CLKOUT2_PHASE => 0.0,   -- Output 1x original frequency
       CLK_FEEDBACK => "CLKFBOUT",                        -- Clock source to drive CLKFBIN ("CLKFBOUT" or "CLKOUT0")
-      CLKIN_PERIOD => 13.33,                              -- IMPORTANT! 20.00 => 50MHz
+      CLKIN_PERIOD => 15.38,                              -- IMPORTANT! 15.38 => 65MHz
       DIVCLK_DIVIDE => 1                                 -- Division value for all output clocks (1-52)
    )
       port map (
