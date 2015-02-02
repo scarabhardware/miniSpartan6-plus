@@ -22,7 +22,7 @@
 --    devices, or systems.  Use in such applications are expressly            --
 --    prohibited.                                                             --
 --                                                                            --
---    (c) Copyright 1995-2014 Xilinx, Inc.                                    --
+--    (c) Copyright 1995-2015 Xilinx, Inc.                                    --
 --    All rights reserved.                                                    --
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -182,15 +182,15 @@ END COMPONENT;
       c_preload_latency => 1,
       c_preload_regs => 0,
       c_prim_fifo_type => "512x36",
-      c_prog_empty_thresh_assert_val => 4,
+      c_prog_empty_thresh_assert_val => 2,
       c_prog_empty_thresh_assert_val_axis => 1022,
       c_prog_empty_thresh_assert_val_rach => 1022,
       c_prog_empty_thresh_assert_val_rdch => 1022,
       c_prog_empty_thresh_assert_val_wach => 1022,
       c_prog_empty_thresh_assert_val_wdch => 1022,
       c_prog_empty_thresh_assert_val_wrch => 1022,
-      c_prog_empty_thresh_negate_val => 5,
-      c_prog_empty_type => 1,
+      c_prog_empty_thresh_negate_val => 8,
+      c_prog_empty_type => 2,
       c_prog_empty_type_axis => 0,
       c_prog_empty_type_rach => 0,
       c_prog_empty_type_rdch => 0,

@@ -153,7 +153,7 @@ architecture Behavioral of dvi_in is
 	
   COMPONENT vga_gen
 	PORT(
-		clk75 : IN std_logic;          
+		clk65 : IN std_logic;          
 		red   : OUT std_logic_vector(7 downto 0);
 		green : OUT std_logic_vector(7 downto 0);
 		blue  : OUT std_logic_vector(7 downto 0);
@@ -191,10 +191,19 @@ architecture Behavioral of dvi_in is
 		clock_s : OUT std_logic
 		);
 	END COMPONENT;
+
+	COMPONENT edidslave
+	PORT(
+		rst_n : IN std_logic;
+		clk : IN std_logic;
+		scl : IN std_logic;
+		dvi_only : IN std_logic;
+		sda : INOUT std_logic
+		);
+	END COMPONENT;
 ---------------------------------------------------------------------
 
-
-begin  
+begin
 
 process (clk50)
 begin
@@ -226,10 +235,15 @@ begin
    ----------------------------------
    --leds <= framing;
 	----------------------------------
-   -- EDID I2C signals (not implemented)
+   -- EDID I2C signals
    ----------------------------------
-   hdmi_sclk <= '1';
-   hdmi_sdat <= '1';
+Inst_edidslave: edidslave PORT MAP(
+		rst_n => '1',
+		clk => hdmi_clk_buffered,
+		sda => hdmi_sdat,
+		scl => hdmi_sclk,
+		dvi_only => '1'
+	);
 
 ------------------------------------------
 -- Receive the differential clock
@@ -267,7 +281,7 @@ PLL_BASE_inst : PLL_BASE
       CLKOUT1_DIVIDE => 5,       CLKOUT1_PHASE => 0.0,   -- Output 2x original frequency
       CLKOUT2_DIVIDE => 10,      CLKOUT2_PHASE => 0.0,    -- Output 1x original frequency
       CLK_FEEDBACK => "CLKFBOUT",                         -- Clock source to drive CLKFBIN ("CLKFBOUT" or "CLKOUT0")
-      CLKIN_PERIOD => 10.0,                               -- IMPORTANT! Approx 77 MHz
+      CLKIN_PERIOD => 15.38,                               -- IMPORTANT! Approx 65 MHz
       DIVCLK_DIVIDE => 1                                  -- Division value for all output clocks (1-52)
    )
       port map (
@@ -472,7 +486,7 @@ Inst_clocking: clocking PORT MAP(
 temp_data <= std_logic_vector( ( signed("00"& (not c0_d)) + signed("00"&c1_d) + signed("00"&(not c2_d))));	
 
 i_vga_gen: vga_gen PORT MAP(
-		clk75 => pixel_clock_t,
+		clk65 => pixel_clock_t,
 		red   => green_t,
 		green => red_t,
 		blue  => blue_t,
@@ -509,5 +523,5 @@ OBUFDS_blue  : OBUFDS port map ( O  => tmds_out_p(0), OB => tmds_out_n(0), I  =>
 OBUFDS_red   : OBUFDS port map ( O  => tmds_out_p(1), OB => tmds_out_n(1), I  => tmds_out_green_t);
 OBUFDS_green : OBUFDS port map ( O  => tmds_out_p(2), OB => tmds_out_n(2), I  => tmds_out_red_t);
 OBUFDS_clock : OBUFDS port map ( O  => tmds_out_p(3), OB => tmds_out_n(3), I  => tmds_out_clock_t);
-	
+
 end Behavioral;

@@ -1,0 +1,19 @@
+# Company:  N/A
+# Engineer: nerf_ninja
+# Constraints for Scarab MiniSpartan6+
+# Design aud_top.v
+# Audio tone generator
+
+NET "audio_r_o" LOC="B8" |IOSTANDARD=LVTTL;
+NET "audio_l_o" LOC="A8" |IOSTANDARD=LVTTL;
+
+NET "clk50_i" LOC = "K3";
+
+NET "clk50_i" TNM = CLK50 ;
+
+TIMESPEC TS_PAD2FFS = FROM : PADS : TO : FFS : 6 ns ;
+TIMESPEC TS_FFS2PAD = FROM : FFS : TO : PADS : 6 ns ;
+
+#Created by Constraints Editor (xc6slx9-ftg256-3) - 2015/01/31
+NET "clk50_i" TNM_NET = clk50_i;
+TIMESPEC TS_clk50_i = PERIOD "clk50_i" 20 ns HIGH 50%;
